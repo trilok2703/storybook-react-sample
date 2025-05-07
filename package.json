@@ -2,7 +2,7 @@
   "name": "storybook-react-sample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trilok2703.github.io/storybook-react-sample/",
+  "homepage": "https://trilok2703.github.io/storybook-react-sample",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
