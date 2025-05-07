@@ -2,6 +2,7 @@
   "name": "storybook-react-sample",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/trilok2703/storybook-react-sample",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -18,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook build && gh-pages -d storybook-static"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +51,7 @@
     "@storybook/react-webpack5": "^8.6.12",
     "@storybook/test": "^8.6.12",
     "eslint-plugin-storybook": "^0.12.0",
+    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "storybook": "^8.6.12",
     "webpack": "^5.99.8"
